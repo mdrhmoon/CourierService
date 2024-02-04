@@ -25,4 +25,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Ambassador.Domain\Ambassador.Domain.csproj" />
+    <ProjectReference Include="..\..\Core\Ambassador.Application\Ambassador.Application.csproj" />
+  </ItemGroup>
+
 </Project>
